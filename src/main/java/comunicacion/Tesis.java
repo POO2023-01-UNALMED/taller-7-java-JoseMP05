@@ -70,14 +70,14 @@ public class Tesis extends Escrito{
 	}
 	
 	public String toString() {
-		String string = this.getOrigen() + "\n";
-		string += this.getTitulo() + "\n";
-		string += this.getAutor() + "\n";
-		string += this.getPaginas() + "\n";
+		String string = super.getOrigen() + "\n";
+		string += super.getTitulo() + "\n";
+		string += super.getAutor() + "\n";
+		string += super.getPaginas() + "\n";
 		string += this.getIdea() + "\n";
 		string += this.getArgumentos().length + "\n";
 		string += this.getConclusion() + "\n";
-		string += this.getReferencias() + "\n";
+		string += this.getReferencias();
 		
 		return  string;
 	}
