@@ -18,6 +18,11 @@ public class Main {
 		System.out.println(comp);
 		System.out.println(ok);
 		
+		Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente",
+				new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"},
+				"Alfabeto latino");
+		System.out.println(alfabeto);
+		
 //		Libro libro = new Libro("Creacion", "El resplandor", "Stephen King", 599,"N/A","Doubleday", "Primera", "no se");
 //		String comp2 = "Creacion\n" + 
 //				"El resplandor\n" + 
